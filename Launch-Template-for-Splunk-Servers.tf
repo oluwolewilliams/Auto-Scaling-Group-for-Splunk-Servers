@@ -41,7 +41,7 @@ SPLUNK_DEB="splunk-$SPLUNK_VERSION-0b8d769cb912-linux-2.6-amd64.deb"
 SPLUNK_URL="https://download.splunk.com/products/splunk/releases/$SPLUNK_VERSION/linux/$SPLUNK_DEB"
 INSTALL_DIR="/opt/splunk"
 ADMIN_USER="admin"
-ADMIN_PASS="12345"  # Set the admin password
+ADMIN_PASS="123456789"  # Set the admin password
 SPLUNK_HOME="$INSTALL_DIR"
 # Update the system
 sudo apt-get update -y
